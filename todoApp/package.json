@@ -1,12 +1,12 @@
 {
-  "name": "reactjs",
+  "name": "todoApp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "it": "webpack-dev-server --hot"
   },
-  "author": "codedamn",
+  "author": "shubhendu-abhishek",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.0",
