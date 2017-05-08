@@ -1,15 +1,9 @@
 # React Js Application
 ToDo Item List 
 
- [Shubhendu Abhishek] writes on the [React Application][df1]
-
-> The overriding design goal for Shubhendu's
-> formatting syntax is to make it as readable
-
+ [Shubhendu Abhishek] writes on the [React Application]
 
 ### Tech
-
-Dillinger uses a number of open source projects to work properly:
 
 * [Reactjs] - HTML enhanced for web apps!
 
@@ -31,25 +25,12 @@ $ npm run it
 #### Building for source
 For production release:
 ```sh
-$ gulp build --prod
+$ webpack
 ```
-Generating pre-built zip archives for distribution:
-```sh
-$ gulp build dist --prod
-```
-
-```sh
-cd dillinger
-npm run-script build-docker
-```
-
 
 ```sh
 127.0.0.1:8080
 ```
-
-
-
 
 ### Todos
 
