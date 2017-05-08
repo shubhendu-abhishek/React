@@ -27,22 +27,7 @@ $ npm install
 $ npm run it
 ```
 
-### Development
 
-First Tab:
-```sh
-$ node app
-```
-
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma start
-```
 #### Building for source
 For production release:
 ```sh
@@ -58,14 +43,9 @@ cd dillinger
 npm run-script build-docker
 ```
 
-```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:latest
-```
-
-Verify the deployment by navigating to your server address in your preferred browser.
 
 ```sh
-127.0.0.1:8000
+127.0.0.1:8080
 ```
 
 
